@@ -1,0 +1,28 @@
+{
+  "name": "my-project",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "sewing-kit lint",
+    "test": "sewing-kit test",
+    "type-check": "sewing-kit type-check",
+    "develop": "sewing-kit develop",
+    "build": "sewing-kit build"
+  },
+  "devDependencies": {
+    "@quilted/craft": "^0.1.5",
+    "typescript": "4.1.x"
+  },
+  "workspaces": {
+    "packages": [
+      "app",
+      "server",
+      "packages/*"
+    ]
+  },
+  "prettier": "@quilted/prettier",
+  "eslintConfig": {
+    "extends": "@quilted/eslint-config/workspace"
+  }
+}
