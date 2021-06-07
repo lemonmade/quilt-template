@@ -1,9 +1,10 @@
 {
   "name": "app",
+  "type": "module",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
-    "@quilted/quilt": "^0.5.4"
+    "@quilted/quilt": "^0.5.5"
   },
   "browserslist": {
     "default": [
