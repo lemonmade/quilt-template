@@ -2048,22 +2048,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/quilt@npm:^0.5.5":
-  version: 0.5.5
-  resolution: "@quilted/quilt@npm:0.5.5"
+"@quilted/quilt@npm:^0.5.9":
+  version: 0.5.9
+  resolution: "@quilted/quilt@npm:0.5.9"
   dependencies:
     "@quilted/async": ^0.3.2
     "@quilted/graphql": ^0.4.2
     "@quilted/http-handlers": ^0.2.4
     "@quilted/polyfills": ^0.2.4
     "@quilted/preact-mini-compat": ^0.2.3
-    "@quilted/react-async": ^0.3.2
-    "@quilted/react-email": ^0.2.2
-    "@quilted/react-graphql": ^0.4.2
-    "@quilted/react-html": ^0.3.2
-    "@quilted/react-http": ^0.2.2
+    "@quilted/react-async": ^0.3.5
+    "@quilted/react-email": ^0.2.5
+    "@quilted/react-graphql": ^0.4.5
+    "@quilted/react-html": ^0.3.5
+    "@quilted/react-http": ^0.2.6
     "@quilted/react-idle": ^0.3.2
-    "@quilted/react-router": ^0.3.2
+    "@quilted/react-router": ^0.3.6
     "@quilted/react-server-render": ^0.3.2
     "@quilted/react-testing": ^0.4.2
     "@quilted/react-workers": ^0.2.2
@@ -2079,16 +2079,16 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: ed029dcbca49f0da1895f49731f89138833456fee160859d88aaa6ac202ed3fc62bd269c31c822f5a9204459b81fdd5214c342315e9e252b8ce5e07fe2a16b57
+  checksum: 4b610735b9f23659915fc20be2cd7a6d1ee037c679f14302b3b440c087ee74c47691eb04deb223a472c0ecc2b54167defeb342300c565ffa3d8c350e8418e57e
   languageName: node
   linkType: hard
 
-"@quilted/react-async@npm:^0.3.2":
-  version: 0.3.2
-  resolution: "@quilted/react-async@npm:0.3.2"
+"@quilted/react-async@npm:^0.3.5":
+  version: 0.3.5
+  resolution: "@quilted/react-async@npm:0.3.5"
   dependencies:
     "@quilted/async": ^0.3.2
-    "@quilted/react-html": ^0.3.2
+    "@quilted/react-html": ^0.3.5
     "@quilted/react-server-render": ^0.3.2
     "@quilted/use-subscription": ^0.2.2
   peerDependencies:
@@ -2096,44 +2096,44 @@ __metadata:
   peerDependenciesMeta:
     react:
       optional: true
-  checksum: 6988cdd974d9bda6fd94a109e142e992a26f4412f3c5dfc880c43498a8bab54cc36f3555822c08413e1deafd0f3c7f88bb71e2efc9b1f73440f60a503137172e
+  checksum: 5afd853915689795b45f82898d02e0fbf5de1f5beaca9faf01693e5769c68ddeece924d175e553c836a92e6026da5ee1e84b41d70dc3e7a418966b98ae4c3e11
   languageName: node
   linkType: hard
 
-"@quilted/react-email@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@quilted/react-email@npm:0.2.2"
+"@quilted/react-email@npm:^0.2.5":
+  version: 0.2.5
+  resolution: "@quilted/react-email@npm:0.2.5"
   dependencies:
-    "@quilted/react-html": ^0.3.2
+    "@quilted/react-html": ^0.3.5
     "@quilted/react-server-render": ^0.3.2
   peerDependencies:
     react: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
     react:
       optional: true
-  checksum: 618314374e3c0e9fd76082e1f648fa49073d327a078f4853b5f358799fef3dcda5240aabe14b6f1e059a0206774901dc1caac1ac14299d48db7c2398c89674cb
+  checksum: 48d57e18d3e6802690e0aeaf2939ed1462c02eb69217f343c59116a8bc11091932afb8841b174b213c32d086eab56210b5b780653d3bc138e695816a1b99cb8d
   languageName: node
   linkType: hard
 
-"@quilted/react-graphql@npm:^0.4.2":
-  version: 0.4.2
-  resolution: "@quilted/react-graphql@npm:0.4.2"
+"@quilted/react-graphql@npm:^0.4.5":
+  version: 0.4.5
+  resolution: "@quilted/react-graphql@npm:0.4.5"
   dependencies:
     "@quilted/graphql": ^0.4.2
-    "@quilted/react-async": ^0.3.2
+    "@quilted/react-async": ^0.3.5
     "@quilted/useful-types": ^0.2.2
   peerDependencies:
     react: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
     react:
       optional: true
-  checksum: 3506a1b85f790483cadc07c5806478c377d8979f2b54430a27eda66b5eb6c0811e1d43cb3dd6ef66be4c8e4fad496d7db67a15521fd0aba0e1f1225bdbaff370
+  checksum: 965d98e8247069433aefc9441c7b40435aecb40be41b32f9f858c852b3c700b1735ee9cb4885d56704a26c4d0615306fa58d77defd93cba9c26e07a2c90247bc
   languageName: node
   linkType: hard
 
-"@quilted/react-html@npm:^0.3.2":
-  version: 0.3.2
-  resolution: "@quilted/react-html@npm:0.3.2"
+"@quilted/react-html@npm:^0.3.5":
+  version: 0.3.5
+  resolution: "@quilted/react-html@npm:0.3.5"
   dependencies:
     "@quilted/react-server-render": ^0.3.2
     "@types/multistream": ^2.1.1
@@ -2148,23 +2148,23 @@ __metadata:
       optional: true
     react-dom:
       optional: true
-  checksum: 80e670c4ce18377148dbc791f92dd39180a3214c2aa3f19379f730dbf903376df029f8a2f65aff4fa579b08913c4632a76f4b6f28d909805d9f79e49ba4802f0
+  checksum: 0f5cbad5bd6698c5aa9d431230454e6c6b818976c08431505b6cedf45d451d5e71cd98bb8997bb1c12bca483ecb7082e7a81ff57d3ffcf285f7896e6160a12fa
   languageName: node
   linkType: hard
 
-"@quilted/react-http@npm:^0.2.2":
-  version: 0.2.2
-  resolution: "@quilted/react-http@npm:0.2.2"
+"@quilted/react-http@npm:^0.2.6":
+  version: 0.2.6
+  resolution: "@quilted/react-http@npm:0.2.6"
   dependencies:
     "@quilted/http": ^0.2.2
-    "@quilted/react-html": ^0.3.2
+    "@quilted/react-html": ^0.3.5
     "@quilted/react-server-render": ^0.3.2
   peerDependencies:
     react: ">=17.0.0 <18.0.0"
   peerDependenciesMeta:
     react:
       optional: true
-  checksum: dd7d9ffc8939d98de7b434da9e7922a796cfaf1104b2dbe3056920f21ae58e9515d6b07d952f85e9481838fc5ba387a6d3a4b283613c5388797590621680dbc0
+  checksum: 842527b2c274110e08dd8eec227b4ace3767acee7d1e364a22d6e44e382dae9dc42c27fce5689b08570f583a617a6448ad226eb02ae4f76677b41b8b399cfe81
   languageName: node
   linkType: hard
 
@@ -2180,12 +2180,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@quilted/react-router@npm:^0.3.2":
-  version: 0.3.2
-  resolution: "@quilted/react-router@npm:0.3.2"
+"@quilted/react-router@npm:^0.3.6":
+  version: 0.3.6
+  resolution: "@quilted/react-router@npm:0.3.6"
   dependencies:
-    "@quilted/react-html": ^0.3.2
-    "@quilted/react-http": ^0.2.2
+    "@quilted/react-html": ^0.3.5
+    "@quilted/react-http": ^0.2.6
     "@quilted/react-server-render": ^0.3.2
     "@quilted/routing": ^0.2.2
   peerDependencies:
@@ -2193,7 +2193,7 @@ __metadata:
   peerDependenciesMeta:
     react:
       optional: true
-  checksum: 501529f05abaf7e9787a79a1096b8db99d65c28c32d05276d75f8ad2e48ef72e5650b3a31ec72ff9242014b6b87ba4b57bdb4290addbbef8b0388da6f2431a74
+  checksum: 07a935a8fe259759b1014343f53219102c354375572ba0edbc1314fdb5ef9d5eca48c301298411422ead0bf417a61308011e801136018ce3bd2dae592cbaca5f
   languageName: node
   linkType: hard
 
@@ -3240,7 +3240,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "app@workspace:app"
   dependencies:
-    "@quilted/quilt": ^0.5.5
+    "@quilted/quilt": ^0.5.9
   languageName: unknown
   linkType: soft
 
